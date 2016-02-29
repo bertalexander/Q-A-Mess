@@ -11,7 +11,17 @@ h2 {
 text-align: center;
 font-size: 18px;}
 
+.container {
+  max-width: 700px;
+  min-height: 500px;
+  margin: 0 auto;
+}
 .header {
+    position: relative;
+     width: 100%;
+    height: auto;
+}
+.food {
     position: relative;
      width: 100%;
     height: auto;
@@ -27,6 +37,8 @@ font-size: 18px;}
     color: #ffffff;
     font-size: 36px;
 }
+
+
 .subheadertext {
     position: absolute;
     left: 0;
@@ -37,10 +49,26 @@ font-size: 18px;}
     color: #ffffff;
     font-size: 20px; }
 
-
+.foodtext {
+    position: absolute; 
+   top: 100px; 
+   left: 0; 
+   text-align: center;
+   width: 100%; 
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+}
+.box {
+    width: 350px;
+    text-align: center;
+    border: 1px solid #9c9c9c;
+    margin: 20px
+    }
 footer {
     font-size: 13px;
     color: #979797;
+    max-width: 800px;
 }
 
 
